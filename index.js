@@ -18,7 +18,7 @@ async function connectToQueue() {
     try {
         const queue = "order";
         await channel.assertQueue(queue);
-        console.log("Connected to the queue!")
+        console.log("Connects to the queue!")
     } catch (ex) {
         console.error(ex);
     }
